@@ -16,7 +16,7 @@ function Header() {
                 {/* <img width="10" src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/plus_aef861.png"></img> */} 
             </div>
             <div className="header__search">
-                <input className="header__searchInput" type="text" />
+                <input className="header__searchInput" placeholder="Search for products, brands and more" type="text" />
                 <SearchIcon className="header__searchIcon" />
             </div>
             <div className="header__nav">
@@ -28,7 +28,7 @@ function Header() {
                     <ShoppingBasketIcon />
                     <span className="header_optionLineTwo header__basketCount">
                         {/* optional tie to get data? */}
-                        0
+                        Cart
                     </span>
                 </div>
             </div>

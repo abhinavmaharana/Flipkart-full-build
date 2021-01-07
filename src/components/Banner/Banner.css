@@ -1,0 +1,36 @@
+.banner {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+}
+.left {
+    background: white;
+    width: 1150px;
+    height: 309px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.left .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.322);
+}
+
+.content >h1 {
+    font-size: 25px;
+    margin-left: 2%;
+    margin-top: 1.2%;
+}
+
+.content > button {
+    width: 100px;
+    height: 30px;
+    margin-top: 1.5%;
+    border: none;
+    margin-right: 2%;
+    background: #2874F0;
+    color: white;
+    border-radius: 5%;
+}

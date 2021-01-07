@@ -1,0 +1,23 @@
+.headerbelowbar {
+    margin-top: -1%;
+    background: #FFFFFF;
+}
+
+.headerbelow__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.headerbelow__item {
+    list-style: none;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.headerbelow__item:hover {
+    color: #2874F0;
+    transition: all 0.3s ease-in-out;
+}
