@@ -57,7 +57,7 @@
     margin-right: 8%;
   }
 
-  .header__nav > Button {
+  .header__nav > button {
       background: white;
       height: 30px;
       width: 100px;
@@ -65,8 +65,16 @@
       font-weight: 700;
       border-radius: 0;
       margin-left: -20%;
+      text-transform: uppercase;
+      display: inline-block;
+      outline: none;
+      border: 1px solid #dbdbdb;
   }
   
+  .Button:hover {
+    color: white;
+  }
+
   .header__link {
     color: white;
     text-decoration: none;

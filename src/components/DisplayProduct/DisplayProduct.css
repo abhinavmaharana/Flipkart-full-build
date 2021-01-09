@@ -1,0 +1,14 @@
+.displayproduct {
+    margin-top: 2%;
+    margin-left: 2%;
+    display: flex;
+}
+
+.displayproduct-card {
+    object-fit: contain;
+    margin-right: 2%;
+}
+
+.displayproduct-card > img {
+    width: 473px;
+}

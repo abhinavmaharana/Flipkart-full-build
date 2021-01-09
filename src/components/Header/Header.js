@@ -2,7 +2,7 @@ import React from 'react'
 import "./Header.css";
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingCart";
-import { Button } from '@material-ui/core';
+// import { Button } from '@material-ui/core';
 
 function Header() {
     return (
@@ -11,6 +11,7 @@ function Header() {
                 <img 
                     className="header__logo"
                     src="http://img1a.flixcart.com/www/linchpin/fk-cp-zion/img/flipkart-plus_8d85f4.png"
+                    alt=""
                 />
                 <p className="content">Explore <span className="explore">Plus</span></p>
                 {/* <img width="10" src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/plus_aef861.png"></img> */} 
@@ -20,7 +21,7 @@ function Header() {
                 <SearchIcon className="header__searchIcon" />
             </div>
             <div className="header__nav">
-                <Button>Login</Button>
+                <button>Login</button>
                 <div className="header__option">
                     <span className="header__optionLineOne">More</span>                  
                 </div>

@@ -1,30 +1,42 @@
-.banner {
+.displaycontainer {
     margin-top: 2%;
     display: flex;
     flex-direction: row;
 }
-.left {
+
+.displaycontainer-wrapper {
     background: white;
-    width: 1250px;
+    width: 1480px;
     height: 309px;
     margin-left: 2%;
-    margin-right: 2%;
+    margin-right: 1%;
 }
 
-.left .content {
+.displaycontainer-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     border-bottom: 1px solid rgba(0, 0, 0, 0.322);
 }
 
-.content >h1 {
-    font-size: 25px;
-    margin-left: 2%;
-    margin-top: 1.2%;
+.content-1 {
+    margin-left: 1%;
+    align-items: center;
 }
 
-.content > button {
+.content-1 > h1 {
+    margin-top: 3%;
+    margin-bottom: 0.5%;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.content-1 > span {
+    color: #868686;
+    font-size: 15px;
+}
+
+.displaycontainer-content > button {
     width: 100px;
     height: 30px;
     margin-top: 1.5%;
@@ -35,17 +47,17 @@
     border-radius: 5%;
 }
 
-.cardcontainer {
+.display-cardcontainer {
     margin-top: 1%;
-    margin-left: 3%;
+    margin-left: 2%;
 }
 
-.card-wrapper {
+.display-card-wrapper {
     display: flex;
     flex-direction: row;
 }
 
-.card {
+.display-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,27 +66,27 @@
     overflow: hidden;
     text-overflow: ellipsis;
     width: 300px;
-    margin-right: 5%;
+    margin-right: 2%;
 }
 
-.card > img {
+.display-card > img {
     object-fit: contain;
-    /* width: 50px; */
 }
 
-.card > h4 {
-    font-size: 10px;
+.display-card > h4 {
+    font-size: 15px;
     font-weight: 700;
+    margin-top: 1%;
 }
 
-.card > span {
+.display-card >span {
     margin-top: -5%;
     font-size: 12px;
     font-weight: 500;
     color: green;
 }
 
-.card > p {
+.display-card > p {
     font-size: 13px;
     margin-top: 3%;
     color: #868686;
