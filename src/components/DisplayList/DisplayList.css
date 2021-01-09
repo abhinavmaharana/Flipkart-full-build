@@ -1,15 +1,14 @@
-.displayproduct {
+.displaylist {
     margin-top: 1%;
     margin-left: 2%;
-    margin-bottom: -1%;
     display: flex;
 }
 
-.displayproduct-card {
+.displaylist-card {
     object-fit: contain;
     margin-right: 2%;
 }
 
-.displayproduct-card > img {
+.displaylist-card > img {
     width: 473px;
 }
